@@ -7,7 +7,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-          Hola <i class="fas fa-praying-hands"></i>
+          Namaste <i class="fas fa-praying-hands"></i>
           </a>
           {/* <img src="assets/MyLogo.png" className="logo"  /> */}
           <div className="itemContainer">

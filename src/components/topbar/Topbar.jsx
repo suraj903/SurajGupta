@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { Person, Mail } from "@material-ui/icons";
+// import { Person, Mail } from "@material-ui/icons";
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -7,8 +7,9 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Namaste <i class="fas fa-praying-hands"></i>
+          Hola <i class="fas fa-praying-hands"></i>
           </a>
+          {/* <img src="assets/MyLogo.png" className="logo"  /> */}
           <div className="itemContainer">
             {/* <Person className="icon" /> */}
             {/* <span>Home</span> */}
@@ -19,15 +20,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             {/* <span>suraj.vnsgu@gmail.com</span> */}
           </div>
           <div className="itemContainer">
-            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
           </div>
-          <div className="itemContainer">
+          {/* <div className="itemContainer">
             <a href="#works">Works</a>
-          </div>
+          </div> */}
 
-          <div className="itemContainer">
+          {/* <div className="itemContainer">
             <a href="#testimonials">Testimonials</a>
-          </div>
+          </div> */}
 
           <div className="itemContainer">
             <a href="#contact">Contact</a>

@@ -23,6 +23,82 @@
     align-items: center;
     justify-content: center;
 
+    @include mobile{
+      // font-size: 0.7rem;
+      margin-top: 5px;
+    }
+
+    .number{
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      left: 0;
+      @include mobile{
+        // font-size: 0.7rem;
+        margin-top: 20px;
+      }
+      .fasmobile{
+        margin-right: 20px;
+      }
+      
+    }
+    .email{
+      display: flex;
+      flex-direction: row;
+      margin: 50px;
+      left: 0;
+      margin-left: 80px;
+      @include mobile{
+        // font-size: 0.7rem;
+        margin-top: 5px;
+      }
+
+      .fasemail{
+        margin-right: 20px;
+      }
+    }
+
+    .socialmedia{
+      display: flex;
+      flex-direction: row;
+      margin: 50px;
+      left: 0;
+      justify-content: space-between;
+      @include mobile{
+        // font-size: 0.7rem;
+        margin-top: 5px;
+      }
+      .fb{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        color: #3B5998;
+        cursor: pointer;
+        margin-left: 20px;  
+        
+      }
+      .twitter  {
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        margin-left: 20px;
+        color: #1DA1F2;
+        cursor: pointer;
+        
+      }
+      .linkedin{
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;        
+        color: #0077b5;
+        cursor: pointer;     
+         
+      }
+      a{
+        text-decoration: none;
+      }
+    }
+
     h2 {
       font-size: 30px;
     }
